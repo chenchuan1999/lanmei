@@ -1,0 +1,195 @@
+.container {
+    width: 1200px;
+    min-width: 1200px;
+    margin: 70px auto 120px;
+    background-color: #f5f5f5;
+}
+
+.episode {
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+}
+
+.episode-title {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+}
+
+.episode-name {
+    width: 300px;
+    height: 70px;
+    line-height: 70px;
+    float: left;
+}
+
+.episode-name h3 {
+    font-size: 18px;
+    float: right;
+}
+
+.episode-icon {
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-left: 10px;
+}
+
+.episode-icon span {
+    font-size: 23px;
+    color: rgb(22, 133, 86);
+    font-weight: 700;
+}
+
+.episode-amount {
+    line-height: 70px;
+    margin-right: 40px;
+    font-size: 14px;
+    float: right;
+    color: #a1a1a1;
+}
+
+.episode-amount span {
+    color: rgb(22, 133, 86);
+}
+
+.episode-song {
+    width: 100%;
+    height: 340px;
+    background-image: url(../img/song-background_03.png);
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.episode-song-img img {
+    width: 260px;
+    height: 260px;
+    border-radius: 5px;
+    float: left;
+}
+
+.episode-song-text {
+    width: 830px;
+    height: 260px;
+    float: right;
+}
+
+.episode-song-text p {
+    color: #fff;
+    font-size: 16px;
+}
+
+.episode-play {
+    width: 100%;
+    height: 56px;
+}
+
+.player {
+    width: 100px;
+    height: 48px;
+    line-height: 48px;
+    float: left;
+}
+
+.player a {
+    display: block;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #999;
+    text-align: center;
+    margin: 8px 20px 0 40px;
+    border-radius: 50%;
+}
+
+.player a img {
+    width: 16px;
+    height: 16px;
+}
+
+.episode-play .begin {
+    width: 50px;
+    height: 56px;
+    line-height: 56px;
+    float: left;
+}
+
+.progress-bar {
+    width: 940px;
+    height: 8px;
+    border-radius: 20px;
+    background: #d3ede0;
+    float: right;
+    margin-top: 24px;
+    margin-right: 10px;
+}
+
+.progressBar {
+    height: 8px;
+    background: #109d59;
+    border-radius: 20px;
+    width: 0%;
+}
+
+.episode-play .finish {
+    width: 50px;
+    height: 56px;
+    line-height: 56px;
+    float: right;
+    margin-right: 10px;
+}
+
+/* 文字内容 */
+
+.article-container {
+    width: 810px;
+    padding: 30px;
+    float: left;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+}
+
+.article-title {
+    height: 100px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.article-title h3 {
+    font-size: 22px;
+    text-align: center;
+}
+
+.title-left {
+    float: left;
+}
+
+.title-left span {
+    float: left;
+    margin-right: 43px;
+    text-indent: 23px;
+    color: #999;
+    margin-top: 15px;
+}
+
+.title-right {
+    float: right;
+    color: #999;
+    margin-top: 15px;
+}
+.article-text{
+    color: #666;
+    font-size: 14px;
+    letter-spacing: 2.5px;
+    
+}
+.title-left>span>i{
+  font-size: 17px;
+}
+.text{
+    height: 20px;
+}
